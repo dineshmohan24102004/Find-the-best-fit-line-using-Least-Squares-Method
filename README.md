@@ -22,8 +22,7 @@ Prgram To implement univariate Linear Regression to fit a straight line using le
 Developed by: Dinesh.M
 Register number: 212222040039
 */
-
-
+```
 import numpy as np
 import matplotlib.pyplot as plt
 X=np.array([0,1,2,3,4,5,6,7,8,9])
@@ -46,6 +45,8 @@ print(Y_pred)
 plt.scatter(X,Y,color='purple')
 plt.plot(X,Y_pred,color='red') 
 plt.show()
+```
+
 
 ## Output:
 ![Screenshot (20)](https://github.com/dineshmohan24102004/Find-the-best-fit-line-using-Least-Squares-Method/assets/119478475/7bcd40d8-aa73-4ab5-a991-f5a03f251e34)
